@@ -1,5 +1,5 @@
-const knex = require('knex')
-const knexfile = require('./knexfile')
+import knex from 'knex'
+import knexfile from './knexfile'
 
 // TODO: in prod, don't hardcode db config here
 // but instead pull values in via env vars or
@@ -11,4 +11,4 @@ const knexfile = require('./knexfile')
 // for tests
 
 const db = knex(knexfile.development)
-module.exports = db
+export default db
