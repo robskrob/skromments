@@ -1,5 +1,3 @@
-// const express = require('express')
-
 import db from '../db/init'
 import CommentsController from '../controllers/comments_controller'
 import CommentService from '../services/comment_service'
