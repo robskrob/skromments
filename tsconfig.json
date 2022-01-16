@@ -6,6 +6,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true
   },
-  "include": ["api/**/*.ts"],
+  "include": ["backend/**/*.ts"],
   "exclude": ["node_modues"]
 }
