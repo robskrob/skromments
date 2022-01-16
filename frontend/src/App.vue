@@ -10,6 +10,9 @@
 
 export default {
   name: 'App',
+  setup() {
+    console.log('hello world!')
+  }
 }
 </script>
 
