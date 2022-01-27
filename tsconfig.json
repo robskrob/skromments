@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "strict": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "strict": true,
+    "target": "esnext"
   },
   "include": ["backend/**/*.ts"],
   "exclude": ["node_modues"]
