@@ -7,7 +7,7 @@
     "migrate": "npx knex migrate:latest --knexfile db/knexfile.js",
     "build": "npx tsc",
     "start": "npm run build && node dist/index.js",
-    "dev": "nodemon api/index.ts",
+    "dev": "nodemon backend/api/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
